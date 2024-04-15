@@ -142,7 +142,7 @@ history = model.fit(
     y=y_train,
     validation_data=(X_test,y_test),
     batch_size=45,
-    epochs=3,)
+    epochs=5,)
 ```
 
 ## Metrics:
@@ -168,14 +168,17 @@ for w, true, pred in zip(X_test[i], y_true, p[0]):
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-![Screenshot 2024-04-13 142930](https://github.com/vinodkumar-s/named-entity-recognition/assets/113497226/e508083d-4e48-48a2-b16d-86ad1904f234)
+![Screenshot 2024-04-15 174314](https://github.com/vinodkumar-s/named-entity-recognition/assets/113497226/3fe0df53-03a7-4f60-b310-4d7e4b4d479e)
+
 
 ### Accuracy, Validation Accuracy Vs Iteration Plot:
-![Screenshot 2024-04-13 143006](https://github.com/vinodkumar-s/named-entity-recognition/assets/113497226/cccd7741-8411-4715-ab49-7d9073e8687d)
+
+![Screenshot 2024-04-15 174215](https://github.com/vinodkumar-s/named-entity-recognition/assets/113497226/9ea8a4b3-b269-491d-8fa8-c860dbad5f3f)
 
 ### Sample Text Prediction
+![Screenshot 2024-04-15 174338](https://github.com/vinodkumar-s/named-entity-recognition/assets/113497226/c11f02ed-df17-45e3-b07b-f8773034de08)
 
-![Screenshot 2024-04-13 143134](https://github.com/vinodkumar-s/named-entity-recognition/assets/113497226/967f6c5a-5110-4fdc-b259-1ae81d5b8777)
+
 
 ## RESULT
 Thus, an LSTM-based model for recognizing the named entities in the text is successfully developed.
