@@ -149,9 +149,10 @@ history = model.fit(
 ```
 metrics = pd.DataFrame(model.history.history)
 metrics.head()
-
+print('VINOD KUMAR S - 212222240116')
 metrics[['accuracy','val_accuracy']].plot()
 
+print('VINOD KUMAR S - 212222240116')
 metrics[['loss','val_loss']].plot()
 ```
 ## Prediction:
